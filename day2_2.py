@@ -25,14 +25,9 @@ for j,l in enumerate(data):
            blue_i = int(split_data[i-1])
            if blue <= blue_i:
                blue = blue_i
-    #print(f'{red} {green} {blue}')
+    #print(f'red {red} green {green} blue {blue}')
     power = red*blue*green
     sum_all += power
 
-
 print(sum_all)
-
-
-
-
 
